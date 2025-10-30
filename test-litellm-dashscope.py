@@ -1,7 +1,7 @@
 from litellm import completion
 import os
 
-# os.environ["DASHSCOPE_API_KEY"] = "sk-edf0d38f077043a58050bf09e1bf9739"
+# os.environ["DASHSCOPE_API_KEY"] = "sk-....."
 
 response = completion(
     model="openai/qwen-max",

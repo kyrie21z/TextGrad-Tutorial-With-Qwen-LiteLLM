@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a528f8-7c93-4095-b3af-16d260f663ff" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TextGrad-qwen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TextGrad-qwen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="24a528f8-7c93-4095-b3af-16d260f663ff" name="更改" comment="feat(engine): 添加 QwenVisionEngine 支持多模态输入&#10;&#10;- 新增 QwenVisionEngine 类，支持通过 LiteLLM 调用 Qwen 视觉模型&#10;- 支持文本与图像混合输入，自动格式化为多模态消息结构&#10;- 实现 base64 编码图像数据处理，兼容 PNG 与 JPEG 格式&#10;- 更新教程文件 Qwen-Tutorial-MultiModal.py 使用新引擎&#10;- 调整项目配置文件中的 Python 环境名称引用&#10;- 升级部分教程版本中使用的默认模型以提升效果">
+      <change afterPath="$PROJECT_DIR$/01-Qwen-Tutorial-Primitives.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Qwen-Tutorial-Solution-Optimization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LiteLLMEngine.py" beforeDir="false" afterPath="$PROJECT_DIR$/LiteLLMEngine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qwen-Tutorial-MultiModal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qwen-Tutorial-MultiModal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qwen-Tutorial-Prompt-Optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qwen-Tutorial-Prompt-Optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qwen-Tutorial-MultiModal.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Qwen-Tutorial-MultiModal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qwen-Tutorial-Prompt-Optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-Qwen-Tutorial-Prompt-Optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qwen-Tutorial-Test-Time-Loss-for-Code.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-Qwen-Tutorial-Test-Time-Loss-for-Code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGrad-test-qwen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_dashscope.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-litellm-dashscope.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +56,13 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01-Qwen-Tutorial-Primitives.executor": "Run",
     "Python.LiteLLMEngine.executor": "Run",
     "Python.Qwen-Tutorial-MultiModal.executor": "Run",
     "Python.Qwen-Tutorial-Prompt-Optimization.executor": "Run",
     "Python.Qwen-Tutorial-Test-Time-Loss-for-Code.executor": "Run",
     "Python.TextGrad-test-qwen.executor": "Run",
+    "Python.a.executor": "Run",
     "Python.test_dashscope.executor": "Run",
     "Python.test_qwen.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -96,26 +100,39 @@
       <workItem from="1761636603194" duration="8011000" />
       <workItem from="1761716300254" duration="6876000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(engine): 添加 QwenVisionEngine 支持多模态输入&#10;&#10;- 新增 QwenVisionEngine 类，支持通过 LiteLLM 调用 Qwen 视觉模型&#10;- 支持文本与图像混合输入，自动格式化为多模态消息结构&#10;- 实现 base64 编码图像数据处理，兼容 PNG 与 JPEG 格式&#10;- 更新教程文件 Qwen-Tutorial-MultiModal.py 使用新引擎&#10;- 调整项目配置文件中的 Python 环境名称引用&#10;- 升级部分教程版本中使用的默认模型以提升效果">
+      <option name="closed" value="true" />
+      <created>1761803809936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761803809936</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(engine): 添加 QwenVisionEngine 支持多模态输入&#10;&#10;- 新增 QwenVisionEngine 类，支持通过 LiteLLM 调用 Qwen 视觉模型&#10;- 支持文本与图像混合输入，自动格式化为多模态消息结构&#10;- 实现 base64 编码图像数据处理，兼容 PNG 与 JPEG 格式&#10;- 更新教程文件 Qwen-Tutorial-MultiModal.py 使用新引擎&#10;- 调整项目配置文件中的 Python 环境名称引用&#10;- 升级部分教程版本中使用的默认模型以提升效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(engine): 添加 QwenVisionEngine 支持多模态输入&#10;&#10;- 新增 QwenVisionEngine 类，支持通过 LiteLLM 调用 Qwen 视觉模型&#10;- 支持文本与图像混合输入，自动格式化为多模态消息结构&#10;- 实现 base64 编码图像数据处理，兼容 PNG 与 JPEG 格式&#10;- 更新教程文件 Qwen-Tutorial-MultiModal.py 使用新引擎&#10;- 调整项目配置文件中的 Python 环境名称引用&#10;- 升级部分教程版本中使用的默认模型以提升效果" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Qwen-Tutorial-Test-Time-Loss-for-Code.py</url>
+          <url>file://$PROJECT_DIR$/03-Qwen-Tutorial-Test-Time-Loss-for-Code.py</url>
           <line>115</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Qwen-Tutorial-Prompt-Optimization.py</url>
+          <url>file://$PROJECT_DIR$/04-Qwen-Tutorial-Prompt-Optimization.py</url>
           <line>75</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Qwen-Tutorial-Prompt-Optimization.py</url>
+          <url>file://$PROJECT_DIR$/04-Qwen-Tutorial-Prompt-Optimization.py</url>
           <line>74</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -125,9 +142,11 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TextGrad_qwen$test_qwen.coverage" NAME="test_qwen 覆盖结果" MODIFIED="1761636147482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$LiteLLMEngine.coverage" NAME="LiteLLMEngine 覆盖结果" MODIFIED="1761803596264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextGrad_qwen$a.coverage" NAME="a 覆盖结果" MODIFIED="1761804588334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextGrad_qwen$01_Qwen_Tutorial_Primitives.coverage" NAME="01-Qwen-Tutorial-Primitives 覆盖结果" MODIFIED="1761804996553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$Qwen_Tutorial_Test_Time_Loss_for_Code.coverage" NAME="Qwen-Tutorial-Test-Time-Loss-for-Code 覆盖结果" MODIFIED="1761723333305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TextGrad_qwen$TextGrad_test_qwen.coverage" NAME="TextGrad-test-qwen 覆盖结果" MODIFIED="1761641025494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$Qwen_Tutorial_Prompt_Optimization.coverage" NAME="Qwen-Tutorial-Prompt-Optimization 覆盖结果" MODIFIED="1761802578999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextGrad_qwen$TextGrad_test_qwen.coverage" NAME="TextGrad-test-qwen 覆盖结果" MODIFIED="1761803997305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$Qwen_Tutorial_MultiModal.coverage" NAME="Qwen-Tutorial-MultiModal 覆盖结果" MODIFIED="1761803701686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$test_dashscope.coverage" NAME="test_dashscope 覆盖结果" MODIFIED="1761638702145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
