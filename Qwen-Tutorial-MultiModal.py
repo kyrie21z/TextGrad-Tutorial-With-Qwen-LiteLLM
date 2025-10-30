@@ -1,7 +1,7 @@
 import io
 from PIL import Image
 import textgrad as tg
-from LiteLLMEngine import QwenEngine
+from LiteLLMEngine import QwenVisionEngine
 
 # differently from the past tutorials, we now need a multimodal LLM call instead of a standard one!
 from textgrad.autograd import MultimodalLLMCall
@@ -18,8 +18,12 @@ image_variable = tg.Variable(image_data, role_description="image to answer a que
 
 question_variable = tg.Variable("What do you see in this image?", role_description="question", requires_grad=False)
 
-qwen_llm_engine = QwenEngine("openai/qwen-vl-plus")
+qwen_llm_engine = QwenVisionEngine(model_name="openai/qwen-vl-plus")
+tg.set_backward_engine(qwen_llm_engine)
+
 response = MultimodalLLMCall(engine=qwen_llm_engine)([image_variable, question_variable])
+print("# before textgrad:\n")
+print(response.value)
 
 Image.open(io.BytesIO(image_data))
 
@@ -28,8 +32,11 @@ loss_fn = ImageQALoss(
     engine=qwen_llm_engine
 )
 loss = loss_fn(question=question_variable, image=image_variable, response=response)
+print("\n\n# loss:\n")
+print(loss.value)
 
 optimizer = tg.TGD(parameters=[response])
 loss.backward()
 optimizer.step()
+print("\n\n# after textgrad:\n")
 print(response.value)

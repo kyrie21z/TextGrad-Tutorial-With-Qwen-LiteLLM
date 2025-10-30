@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a528f8-7c93-4095-b3af-16d260f663ff" name="更改" comment="" />
+    <list default="true" id="24a528f8-7c93-4095-b3af-16d260f663ff" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/TextGrad-qwen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TextGrad-qwen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiteLLMEngine.py" beforeDir="false" afterPath="$PROJECT_DIR$/LiteLLMEngine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qwen-Tutorial-MultiModal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qwen-Tutorial-MultiModal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qwen-Tutorial-Prompt-Optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qwen-Tutorial-Prompt-Optimization.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,33 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Qwen-Tutorial-MultiModal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Qwen-Tutorial-Prompt-Optimization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Qwen-Tutorial-Test-Time-Loss-for-Code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TextGrad-test-qwen.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_dashscope.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_qwen.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.LiteLLMEngine.executor": "Run",
+    "Python.Qwen-Tutorial-MultiModal.executor": "Run",
+    "Python.Qwen-Tutorial-Prompt-Optimization.executor": "Run",
+    "Python.Qwen-Tutorial-Test-Time-Loss-for-Code.executor": "Run",
+    "Python.TextGrad-test-qwen.executor": "Run",
+    "Python.test_dashscope.executor": "Run",
+    "Python.test_qwen.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,34 +96,10 @@
       <workItem from="1761636603194" duration="8011000" />
       <workItem from="1761716300254" duration="6876000" />
     </task>
-    <task id="LOCAL-00001" summary="1.Added QwenVisionEngine to handle multimodal task;&#10;2.Modified Qwen-Tutorial-MultiModal.py.">
-      <option name="closed" value="true" />
-      <created>1761802840574</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1761802840574</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.Added QwenVisionEngine to handle multimodal task;&#10;2.Modified Qwen-Tutorial-MultiModal.py." />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Added QwenVisionEngine to handle multimodal task;&#10;2.Modified Qwen-Tutorial-MultiModal.py." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -140,10 +124,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TextGrad_qwen$test_qwen.coverage" NAME="test_qwen 覆盖结果" MODIFIED="1761636147482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextGrad_qwen$LiteLLMEngine.coverage" NAME="LiteLLMEngine 覆盖结果" MODIFIED="1761803596264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$Qwen_Tutorial_Test_Time_Loss_for_Code.coverage" NAME="Qwen-Tutorial-Test-Time-Loss-for-Code 覆盖结果" MODIFIED="1761723333305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$TextGrad_test_qwen.coverage" NAME="TextGrad-test-qwen 覆盖结果" MODIFIED="1761641025494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$Qwen_Tutorial_Prompt_Optimization.coverage" NAME="Qwen-Tutorial-Prompt-Optimization 覆盖结果" MODIFIED="1761802578999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TextGrad_qwen$Qwen_Tutorial_MultiModal.coverage" NAME="Qwen-Tutorial-MultiModal 覆盖结果" MODIFIED="1761802142993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextGrad_qwen$Qwen_Tutorial_MultiModal.coverage" NAME="Qwen-Tutorial-MultiModal 覆盖结果" MODIFIED="1761803701686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextGrad_qwen$test_dashscope.coverage" NAME="test_dashscope 覆盖结果" MODIFIED="1761638702145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

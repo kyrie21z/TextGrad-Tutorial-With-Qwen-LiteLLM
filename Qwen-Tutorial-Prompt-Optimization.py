@@ -72,8 +72,8 @@ def run_validation_revert(system_prompt: tg.Variable, results, model, eval_fn, v
     results["validation_acc"].append(val_performance)
 
 set_seed(12)
-llm_api_eval = QwenEngine(model_name="openai/qwen-plus")
-llm_api_test = QwenEngine(model_name="openai/qwen-turbo")
+llm_api_eval = QwenEngine(model_name="openai/qwen-max")
+llm_api_test = QwenEngine(model_name="openai/qwen-plus")
 tg.set_backward_engine(llm_api_eval, override=True)
 
 # Load the data and the evaluation function
