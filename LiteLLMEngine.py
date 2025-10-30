@@ -10,7 +10,7 @@ class QwenEngine(EngineLM):
     """
     def __init__(self, model_name: str = "openai/qwen-max", **kwargs):
         super().__init__()
-        self.model = model_name
+        self.model_string = model_name
         self.kwargs = kwargs
         if "DASHSCOPE_API_KEY" not in os.environ:
             raise EnvironmentError("Please set DASHSCOPE_API_KEY to use Qwen via DashScope.")
@@ -32,7 +32,7 @@ class QwenEngine(EngineLM):
         #     **self.kwargs
         # )
         response = completion(
-            model=self.model,
+            model=self.model_string,
             messages=messages,
             base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
             api_key=os.getenv("DASHSCOPE_API_KEY"),
